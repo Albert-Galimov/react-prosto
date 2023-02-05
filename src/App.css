@@ -1,0 +1,32 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+          "h h"
+          "s c";
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 8fr;
+  gap: 10px;
+}
+
+.header {
+  grid-area: h;
+  background: chartreuse;
+}
+
+.header img {
+  width: 70px;
+}
+
+.sidebar {
+  grid-area: s;
+  background: chocolate;
+}
+
+.sidebar ul{
+  list-style: none;
+}
+
+.content {
+  grid-area: c;
+  background: darkcyan;
+}

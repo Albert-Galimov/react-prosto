@@ -8,6 +8,7 @@ function Sidebar() {
                 <li>Сообщения</li>
                 <li>Новости</li>
                 <li>Музыка</li>
+                <li>Видео</li>
                 <li>Настройки</li>
             </ul>
         </nav>

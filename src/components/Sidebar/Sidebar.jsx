@@ -1,4 +1,4 @@
-import '../App.css';
+import '../../App.css';
 import classes from "./Sidebar.module.css";
 
 function Sidebar() {

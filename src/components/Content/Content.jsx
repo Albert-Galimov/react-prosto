@@ -1,5 +1,6 @@
-import '../App.css';
+import '../../App.css';
 import classes from "./Content.module.css";
+import MyPosts from "./MyPosts/MyPosts";
 
 function Content() {
     return (
@@ -10,23 +11,10 @@ function Content() {
             <div>
                 Ava + Description
             </div>
-            <div>
-                My posts
-            </div>
-            <div>
-                New Post
-            </div>
-            <div>
-                Post1
-            </div>
-            <div>
-                Post2
-            </div>
+            <MyPosts/>
         </div>
     );
 }
-
-
 
 
 export default Content;

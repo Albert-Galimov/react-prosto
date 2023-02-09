@@ -1,8 +1,9 @@
 import '../App.css';
+import classes from "./Sidebar.module.css";
 
 function Sidebar() {
     return (
-        <nav className="sidebar">
+        <nav className={classes.sidebar}>
             <ul>
                 <li>Профиль</li>
                 <li>Сообщения</li>

@@ -1,8 +1,9 @@
 import '../App.css';
+import classes from "./Content.module.css";
 
 function Content() {
     return (
-        <div className="content">
+        <div className={classes.content}>
             <div>
                 <img src="https://www.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg" alt=""/>
             </div>

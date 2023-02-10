@@ -3,6 +3,22 @@
     background: chocolate;
 }
 
-.sidebar ul{
+.sidebar a {
+    text-decoration: none;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.active {
+    color: gold;
+}
+
+.sidebar ul {
     list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
 }

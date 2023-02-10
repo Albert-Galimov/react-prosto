@@ -6,6 +6,13 @@
 
 .dialogsItems .item {
     padding: 10px;
+}
+
+.active {
+    color: gold;
+}
+
+.colorWhite {
     color: white;
 }
 

@@ -1,0 +1,13 @@
+.avatarBlock,
+.descriptionBlock {
+    text-align: center;
+}
+
+.avatarBlock img {
+    width: 250px;
+    margin: 30px auto;
+}
+
+.descriptionBlock {
+    margin-bottom: 30px;
+}

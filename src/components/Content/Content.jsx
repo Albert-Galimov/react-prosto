@@ -1,16 +1,12 @@
 import '../../App.css';
-import classes from "./Content.module.css";
+import s from "./Content.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileDescription from "./ProfileDescription/ProfileDescription";
 
 function Content() {
     return (
-        <div className={classes.content}>
-            <div>
-                <img src="https://www.shutterstock.com/image-vector/man-icon-vector-260nw-1040084344.jpg" alt=""/>
-            </div>
-            <div>
-                Ava + Description
-            </div>
+        <div className={s.content}>
+            <ProfileDescription/>
             <MyPosts/>
         </div>
     );

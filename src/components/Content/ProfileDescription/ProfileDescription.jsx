@@ -10,7 +10,7 @@ function ProfileDescription() {
                     src="https://png.pngtree.com/png-vector/20190223/ourmid/pngtree-profile-glyph-black-icon-png-image_691589.jpg"
                     alt=""/>
             </div>
-            <div className={s.descriptionBlock}>
+            <div className="text-xl text-center">
                 Description
             </div>
         </div>

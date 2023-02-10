@@ -4,7 +4,7 @@ function Dialogs () {
 
     return (
         <div>
-            Dialogs
+            Диалоги
         </div>
     )
 

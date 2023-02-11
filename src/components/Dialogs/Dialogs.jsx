@@ -3,24 +3,10 @@ import s from "./Dialogs.module.css";
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
-let DataDialogs = [
-    {name: 'Альберт', id: 1},
-    {name: 'Стас', id: 2},
-    {name: 'Гузель', id: 3},
-    {name: 'Денис', id: 4}
-];
+function Dialogs(props) {
 
-let DataMessages = [
-    {message: 'Привет, как дела?'},
-    {message: 'как проект?'},
-    {message: 'Да посмотрела видео'},
-    {message: 'Только вперёд!'}
-];
-
-let dialogsElement = DataDialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
-let messageElement = DataMessages.map(m => <Message message={m.message}/>);
-
-function Dialogs() {
+    let dialogsElement = props.state.items.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let messageElement = props.state.messages.map(m => <Message message={m.message}/>);
 
     return (
         <div className={s.dialogs}>

@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 
 function Sidebar() {
     return (
-        <nav className={classes.sidebar}>
+        <nav className={'p-10 ' + classes.sidebar}>
             <ul>
                 <li><NavLink to="/profile" className={navData => navData.isActive ? classes.active : classes.colorWhite}>Профиль</NavLink></li>
                 <li><NavLink to="/dialogs" className={navData => navData.isActive ? classes.active : classes.colorWhite}>Сообщения</NavLink></li>

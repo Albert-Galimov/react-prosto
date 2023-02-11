@@ -2,6 +2,16 @@ import '../../../App.css';
 import s from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
+let DataPosts = [
+    {message: 'Привет, это мой первый пост!', likeCount: 30},
+    {message: 'React - это просто!', likeCount: 80},
+    {message: 'Всё будет!', likeCount: 99},
+    {message: 'Только вперёд', likeCount: 50},
+    {message: 'Что за мотивирующие сообщения?', likeCount: 645}
+];
+
+let postElement = DataPosts.map(p => <Post message={p.message} likeCount={p.likeCount}/>);
+
 function MyPosts() {
     return (
         <div>
@@ -16,11 +26,7 @@ function MyPosts() {
                     <button>Go</button>
                 </div>
             </div>
-            <Post message='Привет, это мой первый пост!' likeCount='30'/>
-            <Post message='React - это просто!' likeCount='80'/>
-            <Post message='Всё будет!' likeCount='100'/>
-            <Post message='Только вперёд' likeCount='50'/>
-            <Post message='Что за мотивирующие сообщения?' likeCount='645'/>
+            {postElement}
         </div>
     );
 }
